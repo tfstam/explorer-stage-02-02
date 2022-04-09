@@ -32,8 +32,13 @@ a {
   text-decoration: none;
 }
 
+ul li a {
+  opacity: 0.5;
+}
+
 ul li a:hover {
   font-weight: 700;
+  opacity: 1;
 }
 
 h1, ul {
